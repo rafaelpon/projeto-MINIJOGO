@@ -212,6 +212,15 @@ getchar();system("cls");
 	 }
  	
  	case 3:{// olho de cobra
+ 	printf ("OLHO DE COBRA\nO computador vai jogar dois dados e a soma dos valores e adicionado para a pontuacao do jogador\nO jogador pode escolher jogar os dados novamente ou finalizar seu turno\n\n");
+ 	printf ("Ao finalizar o turno, o jogador salva todos os pontos que ganhou, e passa a vez\n");
+    printf ("Ao jogar, a soma desses novos valores sera acrescentado a sua pontuacao, porem o jogador tem dois riscos!\n\n  1)Se em um dado cair o valor 1, o jogador perde todos os pontos no turno e perde sua vez.\n\n  2)Se os dois dados cairem 1, o jogador perde todos os pontos que ganhou durante o jogo, voltando para zero, e perde sua vez.\n");
+ 	
+ 	
+ 	
+ 	printf ("\n\nPressione \"enter\" para continuar...\n");
+ 	
+ 	getchar();system("cls");
  	
  		volt=1;
 while(volt==1){
