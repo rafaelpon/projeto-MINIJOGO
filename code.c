@@ -272,8 +272,8 @@ while(volt==1){
         switch(volt2){
 		
 		case 1:{
-			dado1= rand() % 6 +1;
-            dado2= rand() % 6 +1;
+			dado1= rand() % 5 +1;
+            dado2= rand() % 5 +1;
 	
 			
 			printf("Dado 1 =  %d\n",dado1);
